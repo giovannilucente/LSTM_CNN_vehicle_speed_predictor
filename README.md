@@ -12,8 +12,8 @@ To install and run this project locally, follow these steps:
 ### 1. Clone the repository
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/giovannilucente/portfolio.git
-cd portfolio/LSTM_CNN_vehicle_speed_predictor
+git clone https://github.com/giovannilucente/LSTM_CNN_vehicle_speed_predictor.git
+cd LSTM_CNN_vehicle_speed_predictor
 ```
 ### 2. Install the requirements
 Install all the required dependencies listed in the requirements.txt:
