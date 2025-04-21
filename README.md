@@ -34,3 +34,10 @@ Once the dataset is downloaded, use the provided Python script to convert the ra
 python3 NGSIM_dataset_converter.py
 ```
 A file called NGSIM_data.pkl will be created, containing the converted dataset in a Python pickle format.
+
+### 5. Launch the training
+Now you can train the model using the following command:
+```bash
+python3 training.py
+```
+The model will train, and the best-performing model will be saved in a folder called model.
