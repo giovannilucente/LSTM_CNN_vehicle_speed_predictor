@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Algorithms for Longitudinal Driving Behavior Prediction</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        img { width: 400px; height: auto; border-radius: 10px; object-fit: cover; margin: 10px; }
+        video { max-width: 80%; margin: 20px 0; }
+        .container { width: 80%; margin: auto; text-align: center; }
+        .scenarios { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+        .scenario { display: flex; flex-direction: column; align-items: center; }
+        .label { font-size: 16px; font-weight: bold; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Deep Learning Algorithms for Longitudinal Driving Behavior Prediction</h1>
+
+    <div class="container">
+        <h2> Paper </h2>
+        <p><strong>"Deep Learning Algorithms for Longitudinal Driving Behavior Prediction: A Comparative Analysis of Convolutional Neural Network and Long–Short-Term Memory Models"</strong></p>
+        <p><strong>Authors:</strong> Giovanni Lucente, Mikkel Skov Maarssoe, Iris Kahl, Julian Schindler</p>
+        <p><strong>Journal:</strong> SAE International Journal of Connected and Automated Vehicles, 2024</p>
+        <p><strong>DOI:</strong> <a href="https://doi.org/10.4271/12-07-04-0025" target="_blank">10.4271/12-07-04-0025</a></p>
+
+        <h2> Abstract</h2>
+        <p>
+            In the realm of transportation science, the advent of deep learning has propelled advancements in predicting longitudinal driving behavior. 
+            This study explores the application of deep neural network architectures, specifically long–short-term memory (LSTM) and convolutional neural 
+            networks (CNNs), recognized for their effectiveness in handling sequential data. Using a 3-s temporal window that includes past vehicle progress, 
+            speed, and acceleration, the proposed model, a hybrid LSTM–CNN architecture, predicts the vehicle’s speed and progress for the next 6 s. The 
+            approach achieves state-of-the-art performance, particularly within a 4 s horizon, but remains competitive even for longer-term predictions. 
+            This is achieved despite the simplicity of its input space, which does not include information about vehicles other than the target vehicle. 
+            As a result, while its performance may decrease slightly for longer-term predictions due to the lack of environmental information, it still 
+            offers reliable predictions and can be applied effectively in scenarios with partial observability. The comparative analysis of multilayer 
+            perceptron (MLP), LSTM, and one-dimensional CNN architectures highlights the challenges faced by MLP in capturing the complex nonlinearity 
+            of driving behavior. LSTM and CNN demonstrate superior performance, with model complexity influencing outcomes. No statistically significant 
+            difference is observed in the performance between LSTM and CNN models.
+        </p>
+
+        <h2> Links</h2>
+        <p><strong> Full Paper:</strong> <a href="https://www.sae.org/publications/technical-papers/content/12-07-04-0025/" target="_blank">Read Here</a></p>
+        <p><strong> GitHub Repository:</strong> <a href="https://github.com/giovannilucente/portfolio/tree/main/LSTM_CNN_vehicle_speed_predictor" target="_blank">View on GitHub</a></p>
+
+        <h2> Prediction examples </h2>
+        <div class="scenarios">
+            <div class="scenario">
+                <img src="media/ex1.png" alt="ex1">
+            </div>
+            <div class="scenario">
+                <img src="media/ex2.png" alt="ex2">
+            </div>
+            <div class="scenario">
+                <img src="media/ex3.png" alt="ex3">
+            </div>
+            <div class="scenario">
+                <img src="media/ex4.png" alt="ex4">
+            </div>
+            <div class="scenario">
+                <img src="media/ex5.png" alt="ex5">
+            </div>
+            <div class="scenario">
+                <img src="media/ex6.png" alt="ex6">
+            </div>
+            <div class="scenario">
+                <img src="media/ex7.png" alt="ex7">
+            </div>
+        </div>
+        
+    </div>
+
+    <br><br>
+    <a href="../index.html"> Back to Portfolio</a>
+</body>
+</html>

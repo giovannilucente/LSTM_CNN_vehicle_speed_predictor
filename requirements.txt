@@ -1,0 +1,6 @@
+numpy
+matplotlib
+pickle5  # If using Python < 3.8, otherwise pickle is built-in
+scikit-learn
+tensorflow
+keras
