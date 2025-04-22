@@ -43,3 +43,8 @@ Now you can train the model using the following command:
 python3 training.py
 ```
 The model will train, and the best-performing model will be saved in a folder called model.
+Some representative results are the following:
+<p align="center">
+  <img src="media/ex3.png" alt="ex3" width="45%"/>
+  <img src="media/ex7.png" alt="ex7" width="45%"/>
+</p>
