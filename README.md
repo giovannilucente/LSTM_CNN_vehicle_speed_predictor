@@ -48,3 +48,16 @@ Some representative results are the following:
   <img src="media/ex3.png" alt="ex3" width="45%"/>
   <img src="media/ex7.png" alt="ex7" width="45%"/>
 </p>
+
+## Reference
+If you find this repo to be useful in your research, please consider citing our work:
+```bash
+@article{lucente2024DeepLA,
+    title={Deep Learning Algorithms for Longitudinal Driving Behavior Prediction: A Comparative Analysis of Convolutional Neural Network and Long–Short-Term Memory Models},
+    author={Giovanni Lucente and Mikkel Skov Maarssoe and Iris Kahl and Julian Schindler},
+    journal={SAE International Journal of Connected and Automated Vehicles},
+    year={2024},
+    doi={10.4271/12-07-04-0025},
+    url={https://doi.org/10.4271/12-07-04-0025}
+}
+```
